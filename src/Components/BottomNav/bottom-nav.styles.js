@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import { space } from 'styled-system';
 
-import { colors }  from '../../Theme';
+import Theme from '../../Theme';
+
+const { colors } = Theme;
 
 export const Container = styled.div`
   height: 46px;
