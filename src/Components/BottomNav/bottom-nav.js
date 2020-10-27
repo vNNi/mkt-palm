@@ -11,19 +11,21 @@ const BottomNav = () => {
   const AddIcon = () => <img src={IconAdd} alt="Adicionar nova lista" />;
   const UserIcon = () => <img src={IconUser} alt="Seu perfil" />;
 
-  return <Container>
+  return (
+    <Container>
       <BottomNavItem>
         <ListIcon />
       </BottomNavItem>
-      <BottomNavItem mb={"2em"}>
-          <AddButton>
-              <AddIcon />
-          </AddButton>
+      <BottomNavItem mb="2em">
+        <AddButton>
+          <AddIcon />
+        </AddButton>
       </BottomNavItem>
-        <BottomNavItem>
-          <UserIcon />
+      <BottomNavItem>
+        <UserIcon />
       </BottomNavItem>
-    </Container>;
+    </Container>
+  );
 };
 
 export default BottomNav;
