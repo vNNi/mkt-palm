@@ -6,5 +6,5 @@ export default {
   component: BottomNav,
 }
 
-export const Basic = () => <BottomNav/>;
+export const Basic = () => <div style={{ marginTop: '40px' }}> <BottomNav/> </div>;
 
